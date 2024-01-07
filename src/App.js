@@ -6,8 +6,8 @@ function App() {
   const [exhibitions, setExhibitions] = useState([]);
 
   useEffect(() => {
-    fetch('/exhibitions/harvard').then(res => res.json()).then(data => {
-      setExhibitions(data.records);
+    fetch('/exhibitions/chicago').then(res => res.json()).then(data => {
+      setExhibitions(data);
       console.log(data)
     });
   }, []);
@@ -17,7 +17,8 @@ function App() {
       <header className="App-header">
 
         {exhibitions.map((exhibition) => (
-          <Link href={exhibition.url}> {exhibition.title} </Link>  
+          <Link href={exhibition.websiteUrl}> {exhibition.title} </Link> 
+          
   ))}
        
       </header>
