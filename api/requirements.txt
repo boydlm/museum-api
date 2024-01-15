@@ -1,0 +1,6 @@
+dependency-injector
+flask
+python-dotenv
+pyyaml
+requests
+pytest

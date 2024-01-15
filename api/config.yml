@@ -1,0 +1,2 @@
+harvard_api_url: "https://api.harvardartmuseums.org/exhibition"
+chicago_api_url: "https://api.artic.edu/api/v1/exhibitions"
