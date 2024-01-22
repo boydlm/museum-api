@@ -14,7 +14,7 @@ export default function MuseumSelect({onSelect}) {
   };
 
   return (
-    <Box sx={{ minWidth: 120 }}>
+    <Box sx={{ p: 3 }}>
       <FormControl fullWidth>
         <InputLabel id="demo-simple-select-label">Museum</InputLabel>
         <Select
