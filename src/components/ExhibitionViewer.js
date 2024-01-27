@@ -8,7 +8,6 @@ export default function ExhibitionViewer({ museum }) {
 
   useEffect(() => {
     if (museum) {
-      console.log("I am in the if statement")
       fetch(`/exhibitions/${museum}`)
         .then(res => res.json())
         .then(data => setExhibitions(data))

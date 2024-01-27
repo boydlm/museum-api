@@ -26,7 +26,6 @@ export default function ExhibitionCard({ exhibition }) {
   const handleExpandClick = () => {
     setExpanded(!expanded);
   };
-  console.log(exhibition)
   return (
     <Card sx={{ maxWidth: 345 }}>
       <CardMedia
