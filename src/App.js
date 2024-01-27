@@ -1,15 +1,11 @@
 import React from 'react';
 import './App.css';
 import ExhibitionPage from './components/ExhibitionPage.js';
-import Header from './components/Header.js'
 
 function App() {
   return (
-  <Header/>,
-  <ExhibitionPage/>
-
-
+    <ExhibitionPage/>
   );
 
 }
-  export default App;
+export default App;

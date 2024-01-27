@@ -3,7 +3,10 @@ from api.services.museum_factory import MuseumFactory
 
 class Container(containers.DeclarativeContainer):
     wiring_config = containers.WiringConfiguration(modules=["api.routes.exhibitions"])
+
     config = providers.Configuration(yaml_files=["config.yml"])
+
+    config.harvard_apikey.from_env("HARVARD_API_KEY")
 
     museum_factory = providers.Factory(
         MuseumFactory, 
