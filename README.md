@@ -29,3 +29,9 @@ yarn start
 ```
 
 Go to `localhost:3000/` in your browser
+
+# Running tests
+
+```
+pytest test
+```
