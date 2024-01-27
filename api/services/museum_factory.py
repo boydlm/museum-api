@@ -20,6 +20,3 @@ class MuseumFactory:
             return SampleMuseumService()
         elif museum_type == MuseumTypes.Chicago.value:
             return ChicagoMuseumService(self._chicago_url)
-
-    
-
