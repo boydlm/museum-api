@@ -1,4 +1,9 @@
-# Install all dependencies and local configuration
+# Current Exhibitions: What's on Display Today? 
+A flexible full-stack web application providing live updates on museum exhibitions. It includes Chicago Institute of Art, Harvard Art Museum, and a Test Museum.  
+
+![museum] (<img width="1456" alt="museum" src="https://github.com/boydlm/museum-api/assets/114845124/2af2e84a-8e83-48a3-8d5c-72a24e31bbcb">)
+
+## Install all dependencies and local configuration
 
 ## Backend
 Install all requirements from the `api/` directory
