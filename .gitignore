@@ -27,3 +27,5 @@ yarn-error.log*
 venv
 __pycache__
 .pytest_cache
+
+.vscode
